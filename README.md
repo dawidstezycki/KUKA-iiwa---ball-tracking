@@ -10,4 +10,4 @@ alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" /></a>
 
 The software in the Ball Catching folder is meant to enable KUKA iiwa catching a ball thrown in its direction assuming it holds a bucket the ball could fall into. It employs trajectory projection to find the position the gripper should go to. Unfortunately, due to health and safety restrictions of the newly built lab, the robot couldn't run at the full speed and the frame rate of the camera used was too slow to thoroughly test the program.
 
-Both folders include talker_zero and talker_start files. The former is used to reset the position of the robotic arm to the straight position. The latter should be run before running either of the actual programs to ensure an optimal starting position.
+Both folders include talker_zero and talker_start files. The former is used to reset the robotic arm to the straight configuration. The latter should be run before running either of the actual programs to ensure an optimal starting position.
